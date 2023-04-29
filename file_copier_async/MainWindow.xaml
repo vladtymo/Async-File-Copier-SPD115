@@ -1,0 +1,34 @@
+﻿<Window x:Class="file_copier_async.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:file_copier_async"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="170" Width="570" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Margin="2">From:</Label>
+        <TextBox x:Name="fromTxtBox" IsReadOnly="True" VerticalContentAlignment="Center" Margin="2" Grid.Column="1"></TextBox>
+        <Button Click="FromBrowseClicked" Margin="2" Padding="6" Grid.Column="2">Browse</Button>
+
+        <Label Margin="2" Grid.Row="1">To:</Label>
+        <TextBox x:Name="toTxtBox" IsReadOnly="True" VerticalContentAlignment="Center" Margin="2" Grid.Row="1" Grid.Column="1"></TextBox>
+        <Button Click="ToBrowseClicked" Margin="2" Padding="6" Grid.Row="1" Grid.Column="2">Browse</Button>
+
+        <Button Click="CopyBtnClicked" Margin="2"  Grid.Row="2" Grid.ColumnSpan="3" Height="35" FontSize="18" Background="LightSeaGreen" Foreground="White">START</Button>
+        <ProgressBar x:Name="progressBar" Margin="2" Grid.Row="3" Grid.ColumnSpan="3" Height="14"></ProgressBar>
+
+    </Grid>
+</Window>

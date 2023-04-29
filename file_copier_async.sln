@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "file_copier_async", "file_copier_async\file_copier_async.csproj", "{12CDD7C4-725C-4AD7-ADF9-0F49D339E7E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12CDD7C4-725C-4AD7-ADF9-0F49D339E7E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CDD7C4-725C-4AD7-ADF9-0F49D339E7E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CDD7C4-725C-4AD7-ADF9-0F49D339E7E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CDD7C4-725C-4AD7-ADF9-0F49D339E7E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6067979-C217-4B86-B839-45664119C5C1}
+	EndGlobalSection
+EndGlobal
